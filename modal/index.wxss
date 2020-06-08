@@ -1,0 +1,53 @@
+.shader {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 90vw;
+  height: 400rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16rpx;
+  /* padding: 20rpx auto; */
+}
+
+.header {
+  height: 120rpx;
+  line-height: 120rpx;
+}
+
+.footer {
+  height: 120rpx;
+  display: flex;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888888;
+}
+
+.btn {
+  height: 100%;
+  line-height: 120rpx;
+  width: 45vw;
+  text-align: center;
+  border-top: 1px solid #888888;
+}
+
+.btn-cancel{
+  border-right: 1px solid #888888;
+}

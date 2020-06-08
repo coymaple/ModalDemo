@@ -1,0 +1,10 @@
+<view class="shader" wx:if="{{show}}">
+  <view class="modal">
+    <view class="header">{{title}}</view>
+    <view class="body">{{content}}</view>
+    <view class="footer">
+      <view class="btn-cancel btn" bind:tap= "onCancel">取消</view>
+      <view class="btn-confirm btn" bind:tap="onConfirm">确认</view>
+    </view>
+  </view>
+</view>
